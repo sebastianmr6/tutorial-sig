@@ -52,7 +52,7 @@ El campo `codigo_concatenado_del_municipio` tendrá valores como:
 |---------------------|------------------|----------------------------------|
 | 05                  | 001              | 05001                          |
 | 05                  | 002              | 05002                          |
-| 05                  | 003              | 03003                          |
+| 05                  | 003              | 05003                          |
 | ...                 | ...              | ...                            |
 
 ## Recomendaciones al concatenar cadenas
@@ -60,7 +60,7 @@ El campo `codigo_concatenado_del_municipio` tendrá valores como:
 - ✅ Revisa los datos de entrada para evitar valores nulos o inconsistentes.
 - ⚠️ Utiliza comillas dobles (`"`) para referenciar los nombres de los campos en la fórmula.
 - ⚠️ Utiliza comillas simples (`'`) para encerrar cadenas de texto en la fórmula.
-- ⚠️ Los numeros van sin comillas en la fórmula de concatenación pero estos se convertirán a texto.
+- ⚠️ Los números van sin comillas en la fórmula de concatenación pero estos se convertirán a texto.
 - ✅ Usa separadores claros (como guiones o guiones bajos) si los valores concatenados deben ser legibles.
 - ✅ Si necesitas una concatenación compleja, utiliza funciones avanzadas de la calculadora de campos.
 
