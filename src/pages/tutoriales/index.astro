@@ -1,15 +1,23 @@
 ---
 import MainLayout from '../../layouts/MainLayout.astro';
 ---
+
 <MainLayout title="Tutoriales SIG">
   <h2>Índice de Tutoriales</h2>
-  <ul>
+  <ol>
     <li><a href="/tutorial-sig/tutoriales/formatos">Formatos de Almacenamiento</a></li>
     <li><a href="/tutorial-sig/tutoriales/vectores">Creación y Edición de Vectores</a></li>
     <li><a href="/tutorial-sig/tutoriales/tabla-atributos">Tabla de Atributos</a></li>
-    <li><a href="/tutorial-sig/tutoriales/geoprocesos-basicos">Geoprocesos básicos</a></li>
-    <li><a href="/tutorial-sig/tutoriales/tutoriales-contents/disolver">Disolver</a></li>
-  </ul>
+      <ul>
+        <li><a href="/tutorial-sig/tutoriales/tutoriales-contents/calculadora-de-campos-concatenar-cadenas">Concatenar cadenas</li>
+      </ul>
+    <li>
+      <a href="/tutorial-sig/tutoriales/geoprocesos-basicos">Geoprocesos básicos</a>
+      <ul>
+        <li><a href="/tutorial-sig/tutoriales/tutoriales-contents/disolver">Disolver</a></li>
+      </ul>
+    </li>
+  </ol>
 
   <p><a href="/tutorial-sig">Regresar al Índice Principal</a></p>
 </MainLayout>
