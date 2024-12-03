@@ -38,3 +38,4 @@ El resultado será una nueva capa con polígonos que representan las subregiones
 2. Realiza un respaldo de tus datos antes de aplicar el Disolver, ya que es una operación irreversible.
 3. Configura correctamente los parámetros de disolución, como los atributos y la tolerancia espacial, para obtener los resultados esperados.
 
+volver a [tutoriales](/tutorial-sig/tutoriales)
