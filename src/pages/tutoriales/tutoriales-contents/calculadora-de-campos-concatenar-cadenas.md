@@ -53,12 +53,12 @@ En la capa de <a href="https://www.dropbox.com/scl/fi/863srrt8uyxq6tiv26mk1/geod
 
 El campo `codigo_concatenado_del_municipio` tendrá valores como:
 
-| codigo_departamento | codigo_municipio | codigo_concatenado_del_municipio |
-|---------------------|------------------|----------------------------------|
-| 05                  | 001              | 05001                          |
-| 05                  | 002              | 05002                          |
-| 05                  | 003              | 05003                          |
-| ...                 | ...              | ...                            |
+| codigo_departamento | nombre_departamento| codigo_municipio | nombre_municipio | codigo_concatenado_del_municipio |
+|---------------------|--------------------|------------------|------------------|----------------------------------|
+| 05                  | Antioquia          |001               | Medellín         | 05001                            |
+| 05                  | Antioquia          |088               | Bello            | 05088                            |
+| 05                  | Antioquia          |360               | Antioquia        | 05360                            |
+| ...                 | Antioquia          |...               | Antioquia        | ...                              |
 
 ![Parámetros de entrada](https://dl.dropboxusercontent.com/scl/fi/wehrtsl6spb5z4ula1lyr/concatenar-cadenas-results.png?rlkey=sxwpcocuvm3qmqhfxmi3azcc6&dl=0)
 
@@ -110,12 +110,13 @@ En este caso, queremos crear un nuevo campo que contenga URLs que enlacen a cada
 
 El campo `url_google_maps` tendrá valores como:
 
-| nombre_municipio | nombre_departamento | url_google_maps                                         |
-|-------------------|---------------------|--------------------------------------------------------|
-| Medellín          | Antioquia          | https://www.google.com/maps/search/?api=1&query=6.2518,-75.5636 |
-| Bello             | Antioquia          | https://www.google.com/maps/search/?api=1&query=6.3373,-75.5553 |
-| Itagüí            | Antioquia          | https://www.google.com/maps/search/?api=1&query=6.1846,-75.5992 |
-| ...               | ...                | ...                                                    |
+| codigo_departamento | nombre_departamento| codigo_municipio | nombre_municipio | codigo_concatenado_del_municipio | url_google_maps                                                 |
+|---------------------|--------------------|------------------|------------------|----------------------------------|-----------------------------------------------------------------|
+| 05                  | Antioquia          |001               | Medellín         | 05001                            | https://www.google.com/maps/search/?api=1&query=6.2518,-75.5636 |
+| 05                  | Antioquia          |088               | Bello            | 05088                            | https://www.google.com/maps/search/?api=1&query=6.3373,-75.5553 |
+| 05                  | Antioquia          |360               | Antioquia        | 05360                            | https://www.google.com/maps/search/?api=1&query=6.1846,-75.5992 |
+| ...                 | Antioquia          |...               | Antioquia        | ...                              | ...                                                             |
+
 
 De esta manera, cada entidad tendrá una URL única que la localiza en Google Maps con las coordenadas correctamente transformadas.
 
