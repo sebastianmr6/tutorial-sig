@@ -1,23 +1,63 @@
 ---
 import MainLayout from '../../layouts/MainLayout.astro';
 ---
-
 <MainLayout title="Tutoriales SIG">
-  <h2>Índice de Tutoriales</h2>
-  <ol>
-    <li><a href="/tutoriales/formatos">Formatos de Almacenamiento</a></li>
-    <li><a href="/tutoriales/vectores">Creación y Edición de Vectores</a></li>
-    <li><a href="/tutoriales/tabla-atributos">Tabla de Atributos</a></li>
-      <ul>
-        <li><a href="/tutoriales/tutoriales-contents/calculadora-de-campos-concatenar-cadenas">Concatenar cadenas</li>
-      </ul>
-    <li>
-      <a href="/tutoriales/geoprocesos-basicos">Geoprocesos básicos</a>
-      <ul>
-        <li><a href="/tutoriales/tutoriales-contents/disolver">Disolver</a></li>
-      </ul>
-    </li>
-  </ol>
+  <section class="bg-gray-50 py-16">
+    <div class="container mx-auto px-4">
+      <h1 class="text-4xl font-extrabold text-center text-blue-700 sm:text-5xl">
+        Tutoriales SIG
+      </h1>
 
-  <p><a href="/">Regresar al Índice Principal</a></p>
+      <p class="mt-4 text-center text-lg text-gray-700 sm:text-xl">
+        Este sitio está diseñado para apoyar a estudiantes universitarios en el aprendizaje de Sistemas de Información Geográfica.
+      </p>
+
+      <h2 class="mt-10 text-2xl font-bold text-blue-600">Índice de Tutoriales</h2>
+      <ol class="mt-4 list-decimal space-y-4 pl-8 text-gray-800">
+        <li>
+          <a href="/tutoriales/formatos" class="text-blue-600 hover:underline">
+            Formatos de Almacenamiento
+          </a>
+        </li>
+        <li>
+          <a href="/tutoriales/vectores" class="text-blue-600 hover:underline">
+            Creación y Edición de Vectores
+          </a>
+        </li>
+        <li>
+          <a href="/tutoriales/tabla-atributos" class="text-blue-600 hover:underline">
+            Tabla de Atributos
+          </a>
+          <ul class="mt-2 space-y-2 pl-4 list-disc">
+            <li>
+              <a href="/tutoriales/tutoriales-contents/calculadora-de-campos-concatenar-cadenas" class="text-blue-500 hover:underline">
+                Concatenar cadenas
+              </a>
+            </li>
+          </ul>
+        </li>
+        <li>
+          <a href="/tutoriales/geoprocesos-basicos" class="text-blue-600 hover:underline">
+            Geoprocesos básicos
+          </a>
+          <ul class="mt-2 space-y-2 pl-4 list-disc">
+            <li>
+              <a href="/tutoriales/tutoriales-contents/disolver" class="text-blue-500 hover:underline">
+                Disolver
+              </a>
+            </li>
+          </ul>
+        </li>
+      </ol>
+
+      <div class="mt-8 text-center">
+        <a
+          href="/"
+          class="inline-block rounded bg-blue-600 px-6 py-3 text-white font-medium hover:bg-blue-700 focus:outline-none focus:ring focus:ring-blue-300"
+        >
+          Regresar al Índice Principal
+        </a>
+      </div>
+    </div>
+  </section>
 </MainLayout>

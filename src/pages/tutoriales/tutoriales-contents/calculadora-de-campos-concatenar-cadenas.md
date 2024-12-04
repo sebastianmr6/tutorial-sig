@@ -114,8 +114,8 @@ El campo `url_google_maps` tendrá valores como:
 |---------------------|--------------------|------------------|------------------|----------------------------------|-----------------------------------------------------------------|
 | 05                  | Antioquia          |001               | Medellín         | 05001                            | https://www.google.com/maps/search/?api=1&query=6.2518,-75.5636 |
 | 05                  | Antioquia          |088               | Bello            | 05088                            | https://www.google.com/maps/search/?api=1&query=6.3373,-75.5553 |
-| 05                  | Antioquia          |360               | Antioquia        | 05360                            | https://www.google.com/maps/search/?api=1&query=6.1846,-75.5992 |
-| ...                 | Antioquia          |...               | Antioquia        | ...                              | ...                                                             |
+| 05                  | Antioquia          |360               | Itagüí           | 05360                            | https://www.google.com/maps/search/?api=1&query=6.1846,-75.5992 |
+| ...                 | ...                |...               | ...              | ...                              | ...                                                             |
 
 
 De esta manera, cada entidad tendrá una URL única que la localiza en Google Maps con las coordenadas correctamente transformadas.
