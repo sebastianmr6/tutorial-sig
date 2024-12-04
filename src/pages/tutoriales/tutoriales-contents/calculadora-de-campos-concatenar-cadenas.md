@@ -58,8 +58,8 @@ El campo `codigo_concatenado_del_municipio` tendrá valores como:
 |---------------------|--------------------|------------------|------------------|----------------------------------|
 | 05                  | Antioquia          |001               | Medellín         | 05001                            |
 | 05                  | Antioquia          |088               | Bello            | 05088                            |
-| 05                  | Antioquia          |360               | Antioquia        | 05360                            |
-| ...                 | Antioquia          |...               | Antioquia        | ...                              |
+| 05                  | Antioquia          |360               | Itagüí           | 05360                            |
+| ...                 | ...                |...               | ...              | ...                              |
 
 ![Parámetros de entrada](https://dl.dropboxusercontent.com/scl/fi/wehrtsl6spb5z4ula1lyr/concatenar-cadenas-results.png?rlkey=sxwpcocuvm3qmqhfxmi3azcc6&dl=0)
 
