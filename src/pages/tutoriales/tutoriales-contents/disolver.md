@@ -1,5 +1,6 @@
 ---
-title: Geoproceso Disolver
+layout: ../../../layouts/MainLayout.astro
+title: Geoprocesos - Disolver
 ---
 # Herramienta Disolver en SIG
 
