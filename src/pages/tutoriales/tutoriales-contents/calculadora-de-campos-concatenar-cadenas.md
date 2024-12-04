@@ -72,4 +72,4 @@ El campo `codigo_concatenado_del_municipio` tendrá valores como:
 - ✅ Usa separadores claros (como guiones o guiones bajos) si los valores concatenados deben ser legibles.
 - ✅ Si necesitas una concatenación compleja, utiliza funciones avanzadas de la calculadora de campos.
 
-Volver a [tutoriales](/tutorial-sig/tutoriales)
+Volver a [tutoriales](/tutoriales)

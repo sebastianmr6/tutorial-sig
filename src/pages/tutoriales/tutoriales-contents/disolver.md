@@ -55,4 +55,4 @@ El resultado será una nueva capa con polígonos que representan las subregiones
 - ✅ Se recomienda usar campos de códigos más que de nombres para evitar problemas de ortografía o duplicados.
 - ✅ Configura correctamente los parámetros de disolución, como los atributos y conservar registros separados en caso de requerirlo.
 
-Volver a [tutoriales](/tutorial-sig/tutoriales)
+Volver a [tutoriales](/tutoriales)
